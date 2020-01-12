@@ -10,7 +10,7 @@
 <!-- Start Carousel -->
 <!-- Let's agree on a aspect ratio for images in the carousel, and stick to it.
 This may involve modifying some images to make them fit. I'd opt for a very
-wide ratio so we can have a 100% width on the splash page images. -->
+wide ratio so we can have a 100% width on the splash page images. For now 1:2 -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
