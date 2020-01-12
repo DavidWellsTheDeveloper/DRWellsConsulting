@@ -5,7 +5,6 @@
 <?php include('nav.php'); ?>
 <?php
 $pageName =  $_GET['pageName'];
-echo $pageName;
 include($pageName);
 ?>
 <?php include('footer.php'); ?>

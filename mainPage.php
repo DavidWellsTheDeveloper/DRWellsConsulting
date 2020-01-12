@@ -8,13 +8,13 @@
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/ricks/ChicagoLondon/20180915-167.jpg" alt="chicago skyline">
+      <img src="img/20180915-167.jpg" alt="chicago skyline">
     </div><!-- End active -->
     <div class="item">
-      <img src="img/ricks/ChicagoLondon/20180915-179.jpg" alt="chicago bridge">
+      <img src="img/20180915-179.jpg" alt="chicago bridge">
     </div><!-- End active -->
     <div class="item">
-      <img src="img/ricks/ChicagoLondon/20180916-129.jpg" alt="chicago Tom">
+      <img src="img/20180916-129.jpg" alt="chicago Tom">
     </div><!-- End active -->
     </div>
     <!-- Start Slider Controls -->
