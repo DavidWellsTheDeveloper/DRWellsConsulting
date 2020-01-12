@@ -5,7 +5,6 @@
 <?php include('nav.php'); ?>
 
 <!-- Start Page Content -->
-<h1>Main Page is under construction!!!</h1>
 
 <!-- Start Carousel -->
 <!-- Let's agree on a aspect ratio for images in the carousel, and stick to it.
