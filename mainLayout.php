@@ -3,7 +3,11 @@
 <?php include('head.php'); ?>
 <body>
 <?php include('nav.php'); ?>
-<?php include('mainContent.php'); ?>
+<?php
+$pageName =  $_GET['pageName'];
+echo $pageName;
+include($pageName);
+?>
 <?php include('footer.php'); ?>
 </body>
 </html>

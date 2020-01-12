@@ -26,6 +26,11 @@
   color: #000;
 }
 
+#myCarousel {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
 /* CSS - Cascading Style Sheet */
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=52P160kllll8rKMeTtjrNdoBI5q */
