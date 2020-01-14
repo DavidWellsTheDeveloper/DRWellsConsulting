@@ -1,21 +1,21 @@
-  <nav class="navbar background-color-primary-3">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/drwLogo.png"/></a>
+        <button class="navbar-toggler ml-auto mr-3" type="button" data-toggle="collapse" data-target="#MyNavbar" aria-controls="MyNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><img class="img-responsive" src="img/drwLogo.png"/></a>
+
       </div>
       <div class="collapse navbar-collapse" id="MyNavbar">
-        <ul class="nav navbar-nav navbar-right background-color-secondary-2-2">
-          <li class="active"><a href="mainPage.php">Home</a></li>
-          <li><a href="servicesPage.php">Services</a></li>
-          <li><a href="contactPage.php">Contact Us</a></li>
-
-
+        <ul class="navbar-nav ml-auto mr-4">
+          <li class="nav-item <?php echo ($page == "home" ? "active" : "")?>">
+            <a class="nav-link" href="home.php">Home</a>
+          </li>
+          <li class="nav-item <?php echo ($page == "services" ? "active" : "")?>">
+            <a class="nav-link" href="services.php">Services</a>
+          </li>
+          <li class="nav-item <?php echo ($page == "contact" ? "active" : "")?>">
+            <a class="nav-link" href="contact.php">Contact Us</a>
+          </li>
         </ul>
       </div>
-    </div>
   </nav>

@@ -4,17 +4,16 @@
 
   switch ($request) {
         case '/' :
-
-          require __DIR__ . '/mainPage.php';
+          require __DIR__ . '/home.php';
           break;
         case '' :
-          require __DIR__ . '/mainPage.php';
+          require __DIR__ . '/home.php';
           break;
         case '/contact' :
           require __DIR__ . '/contact.php';
           break;
-        case '/contact' :
-          require __DIR__ . '/contact.php';
+        case '/services' :
+          require __DIR__ . '/services.php';
           break;
         default:
           http_response_code(404);

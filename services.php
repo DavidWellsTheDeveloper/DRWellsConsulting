@@ -2,12 +2,11 @@
 <html lang="en">
 <?php include('head.php'); ?>
 <body>
+<?php $page = "services"; ?>
 <?php include('nav.php'); ?>
 
 <!-- Start Page Content -->
-
-<h1>Contact Us</h1>
-
+<h1>Services</h1>
 <!-- End Page Content -->
 
 
