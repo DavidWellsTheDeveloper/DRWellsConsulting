@@ -34,6 +34,16 @@ line-height: 1;
 width: 100%; // Add this
 }
 
+.img-devices {
+  max-height: 25em;
+}
+
+@media only screen and (max-width: 900px) {
+  .img-devices {
+    max-height: 8em;
+  }
+}
+
 /* CSS - Cascading Style Sheet */
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=52P160kllll8rKMeTtjrNdoBI5q */
