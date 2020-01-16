@@ -8,13 +8,13 @@
       <div class="collapse navbar-collapse" id="MyNavbar">
         <ul class="navbar-nav ml-auto mr-4">
           <li class="nav-item <?php echo ($page == "home" ? "active" : "")?>">
-            <a class="nav-link" href="home.php">Home</a>
+            <a class="nav-link" href="home.php"><i class="fas fa-home"></i> Home</a>
           </li>
           <li class="nav-item <?php echo ($page == "services" ? "active" : "")?>">
-            <a class="nav-link" href="services.php">Services</a>
+            <a class="nav-link" href="services.php"><i class="fas fa-clipboard-list"></i> Services</a>
           </li>
           <li class="nav-item <?php echo ($page == "contact" ? "active" : "")?>">
-            <a class="nav-link" href="contact.php">Contact Us</a>
+            <a class="nav-link" href="contact.php"><i class="fas fa-phone"></i> Contact Us</a>
           </li>
         </ul>
       </div>

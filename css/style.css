@@ -44,11 +44,16 @@ width: 100%; // Add this
   }
 }
 
-/* CSS - Cascading Style Sheet */
-/* Palette color codes */
-/* Palette URL: http://paletton.com/#uid=52P160kllll8rKMeTtjrNdoBI5q */
+.parallax {
+  /* The image used */
+  background-image: url("../img/ricardo-gomez-angel-mGpwm0TyPI8-unsplash.jpg");
 
-/* Feel free to copy&paste color codes to your application */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 /* As hex codes */
