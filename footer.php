@@ -1,22 +1,26 @@
 <hr>
-<div class="container-fluid">
+<div class="container-fluid footer-style background-color-secondary-2-2 color-primary-3">
 	<div class="row">
-		<div class="col-sm" style="text-align: center;">
+		<div class="col-sm">
 			<address>
-			DRWells Consulting (<a href="mailto:ricwells@gmail.com">ricwells@gmail.co</a>)<br/>
+			David & Rick Wells Consulting<br/>
+			<a href="mailto:ricwells@gmail.com">ricwells@gmail.co</a><br/>
 			999-555-1111<br/>
 			1236 Canvasback CT.<br/>
 			Fort Collins, CO 80525
 			</address>
 		</div>
-		<div class="col-sm" style="text-align: center;">
-			Social Media<br/>
-			<span class="social" >
+		<div class="col-sm" style="text-align: right;">
+			<span style="font-size: xx-large;">Social Media</span><br/>
+			<div class="social" >
 				<i class="fab fa-facebook-square"></i>
 				<i class="fab fa-twitter-square"></i>
 				<i class="fab fa-instagram"></i>
-			</span>
+			</div>
 		</div>
+	</div>
+	<div style="text-align: center">
+		&copy; 2020 David & Rick Wells Consulting
 	</div>
 </div>
 

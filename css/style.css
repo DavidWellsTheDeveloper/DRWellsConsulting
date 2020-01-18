@@ -23,7 +23,11 @@
 
 /* Links */
 .navbar-nav li a {
-  color: #000;
+  color: #64BB64;
+}
+
+.navbarColorCombos {
+  background-color: #2D882D;
 }
 
 .carousel-inner>.carousel-item>img, .carousel-inner>.carousel-item>a>img {
@@ -113,6 +117,10 @@ width: 100%; // Add this
 .rgba-secondary-2-2 { color: rgba(233,227,125,1) }
 .rgba-secondary-2-3 { color: rgba(107,101, 14,1) }
 .rgba-secondary-2-4 { color: rgba( 43, 40,  0,1) }
+
+.footer-style {
+  padding-top: 10px;
+}
 
 .social {
   font-size: 3em;

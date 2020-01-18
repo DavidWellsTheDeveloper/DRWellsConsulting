@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbarColorCombos">
     <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/drwLogo.png"/></a>
         <button class="navbar-toggler ml-auto mr-3" type="button" data-toggle="collapse" data-target="#MyNavbar" aria-controls="MyNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
