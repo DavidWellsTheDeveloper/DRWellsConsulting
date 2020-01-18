@@ -1,18 +1,17 @@
 <?php
 
-$request = strtoupper(trim($_SERVER['REQUEST_URI'], '/'));
-echo $request;
-switch ($request) {
+$request = strtoupper($_SERVER['REQUEST_URI']);
+$request = str_replace('DRWELLSCONSULTING', '', $request);
+$request = trim($request, '/');
+switch ($request) { 
   case '' :
-  case 'DRWELLSCONSULTING' :
+  case 'HOME' :
   require __DIR__ . '/home.php';
   break;
   case 'CONTACT' :
-  case 'DRWELLSCONSULTING/CONTACT' :
   require __DIR__ . '/contact.php';
   break;
   case 'SERVICES' :
-  case 'DRWELLSCONSULTING/SERVICES' :
   require __DIR__ . '/services.php';
   break;
   default:
