@@ -7,6 +7,7 @@
   $request = strtoupper($_SERVER['REQUEST_URI']);
   $request = str_replace('DRWELLSCONSULTING', '', $request);
   $request = trim($request, '/');
+  $nomatch = false;
   switch ($request) { 
       case '' :
       case 'HOME' :
@@ -19,13 +20,18 @@
         $page = "services";
         break;
       default:
+        $nomatch = true;
               //http_response_code(404);
               //require __DIR__ . '/404.php';
       break;
   }
 
   include('nav.php');
-  require __DIR__ . '/' . $page . '.php';
+  if ($nomatch) {
+    echo "<h3>Crap, '" . $request . "' does not exist!</h3>";
+  } else {
+    require __DIR__ . '/' . $page . '.php';    
+  }
   include('footer.php');
 ?>
 
