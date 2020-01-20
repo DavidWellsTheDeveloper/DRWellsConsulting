@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php include('head.php'); ?>
-<body>
-  <?php $page = "home"; ?>
-  <?php include('nav.php'); ?>
   <!-- Start Page Content -->
 
   <!-- Start Carousel -->
@@ -124,7 +118,3 @@
   </div>
   <!-- End accordion -->
 <!-- End Page Content -->
-
-  <?php include('footer.php'); ?>
-  </body>
-</html>
