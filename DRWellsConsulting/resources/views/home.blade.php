@@ -38,17 +38,30 @@
   </div>
   <!-- End of Carousel -->
 <div class="parallax">
-  <div class="container">
-    <div class="row pt-4">
-      <div class="col-sm-7 col-lg-5 text-center">
+  <div class="container-fluid">
+    <div class="row py-5 align-items-center justify-content-around">
+      <div class="col-sm-6 col-lg-4 py-2 text-center">
         <img src="img/responsive.png" class="img-fluid" alt="">
       </div>
-      <div class="col-sm-5 col-lg-7 card bg-light text-center mt-3" style="opacity: .7;">
-        <h3 class="card-title">Responsive Design</h3>
-        <p class="card-text">Mobile first development is a given, so you know that your site will
-          always look great on all devices.</p>
+      <div class="col-sm-6 col-lg-4  py-2 text-center">
+        <div class="bg-light" style="opacity: .7;">
+          <h3 class="p-5"><em>Mobile internet consumption has grown over 500% since 2011.</em></h3>
+        </div>
       </div>
     </div>
+    <div class="row justify-content-around">
+      <div class="col-11 col-lg-8 card bg-light text-center" style="opacity: .7;">
+        <h2 class="card-title">Responsive Design</h2>
+        <p class="card-text">In 2019 mobile devices accounted for 51% of all
+          web traffic worldwide. You need a website that looks great for all
+          of your visiters. If you're looking to create a new website or web
+          application, you need to be thinking of your audience! We ensure your
+          website looks great no matter what devices visiters view it on.
+          We always use a mobile first aproach to design, so you can expect
+          flawless experiences <em>every time</em>.</p>
+      </div>
+    </div>
+    <hr>
     <div class="row mt-5">
       <div class="col-lg-4 mb-3">
         <div class="card px-3 pb-3 text-white bg-dark text-center">
