@@ -2,42 +2,51 @@
 
 @section ('content')
 <?php $page = "home" ?>
-  <!-- Start Page Content -->
+<!-- Start Page Content -->
 
-  <!-- Start Carousel -->
-  <!-- Let's agree on a aspect ratio for images in the carousel, and stick to it.
-  This may involve modifying some images to make them fit. I'd opt for a very
-  wide ratio so we can have a 100% width on the splash page images. For now 1:2 -->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-
-        <img src="{{url('img/20180915-167.jpg')}}" alt="chicago skyline">
-      </div><!-- End active -->
-      <div class="carousel-item">
-        <img src="{{url('img/20180915-179.jpg')}}" alt="chicago bridge">
-      </div><!-- End active -->
-      <div class="carousel-item">
-        <img src="{{url('img/20180916-129.jpg')}}" alt="chicago Tom">
-      </div><!-- End active -->
+<!-- Start Carousel -->
+<!-- Let's agree on a aspect ratio for images in the carousel, and stick to it.
+This may involve modifying some images to make them fit. I'd opt for a very
+wide ratio so we can have a 100% width on the splash page images. For now 1:2 -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{url('img/carousel/andreas-klassen-gZB-i-dA6ns-unsplash.jpg')}}" alt="chicago skyline">
     </div>
-    <!-- Start Slider Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="carousel-item">
+      <img src="{{url('img/carousel/christina-wocintechchat-com-9-ohfp-Dicg-unsplash.jpg')}}" alt="chicago bridge">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url('img/carousel/danielle-macinnes-IuLgi9PWETU-unsplash.jpg')}}" alt="chicago Tom">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url('img/carousel/florian-klauer-mk7D-4UCfmg-unsplash.jpg')}}" alt="chicago Tom">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url('img/carousel/freddie-marriage-vSchPA-YA_A-unsplash.jpg')}}" alt="chicago Tom">
+    </div>
   </div>
-  <!-- End of Carousel -->
-<div class="parallax">
+  <!-- Start Slider Controls -->
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- End of Carousel -->
+
+<div class="parallax pb-3">
+  <h1 class="text-center bg-light py-3" style="opacity: .7;">Mobile First Design</h1>
   <div class="container-fluid">
     <div class="row py-5 align-items-center justify-content-around">
       <div class="col-sm-6 col-lg-4 py-2 text-center">
@@ -55,14 +64,17 @@
         <p class="card-text">In 2019 mobile devices accounted for 51% of all
           web traffic worldwide. You need a website that looks great for all
           of your visiters. If you're looking to create a new website or web
-          application, you need to be thinking of your audience! We ensure your
-          website looks great no matter what devices visiters view it on.
-          We always use a mobile first aproach to design, so you can expect
-          flawless experiences <em>every time</em>.</p>
+          application, you need to be thinking of your audience! For far too
+          long mobile websites were an afterthought, when designing content for
+          the web. Mobile first content should be viewed as a necessity from
+          the begining of the design process.
+          </p>
+        </div>
       </div>
     </div>
-    <hr>
-    <div class="row mt-5">
+  </div>
+  <div class="container-fluid">
+    <div class="row mt-3 mb-4">
       <div class="col-lg-4 mb-3">
         <div class="card px-3 pb-3 text-white bg-dark text-center">
           <span style="font-size: 5em;"><i class="fas fa-crosshairs"></i></span>
@@ -86,7 +98,6 @@
       </div>
     </div>
   </div>
-</div>
 
   <!-- Start accordion -->
   <div class="accordion" id="accordionExample">
@@ -135,6 +146,6 @@
     </div>
   </div>
   <!-- End accordion -->
-<!-- End Page Content -->
+  <!-- End Page Content -->
 
-@endsection
+  @endsection
