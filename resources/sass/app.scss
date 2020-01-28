@@ -1,3 +1,5 @@
+
+
 // As hex codes */
 
 $color-primary: #403075;	// Main Primary color */
@@ -24,41 +26,14 @@ $color-complement-light: #EBD776;
 $color-complement-dark: #695A11;
 $color-complement-darker: #292200;
 
-
+@import "nav";
 
 @mixin semi-trasparent($color, $opacity: 0.7) {
   background: $color;
   background: rgba($color, $opacity);
 }
 
-nav {
-  background-color: $color-primary-darker;
-  .navbar-toggler {
-    color: $color-complement-lighter;
-  }
-  ul {
-    li a {
-      color: $color-complement-lighter;
-      &:hover {
-        color: $color-complement-light;
-      }
-    }
-    .active a{
-      color: $color-primary;
-      background-color: white;
-      &:hover {
-        background-color: $color-complement-light;
-        color: $color-primary-dark;
-      }
-    }
-  }
-  .navbar-brand {
-    float:left;
-    min-height: 55px;
-    padding: 0 0 0;
-    max-width: 100px;
-  }
-}
+
 
 .parallax {
   /* The image used */

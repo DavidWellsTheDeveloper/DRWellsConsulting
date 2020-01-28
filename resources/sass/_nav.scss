@@ -1,0 +1,28 @@
+nav {
+  background-color: $color-primary-darker;
+  .navbar-toggler {
+    color: $color-complement-lighter;
+  }
+  ul {
+    li a {
+      color: $color-complement-lighter;
+      &:hover {
+        color: $color-complement-light;
+      }
+    }
+    .active a{
+      color: $color-primary;
+      background-color: white;
+      &:hover {
+        background-color: $color-complement-light;
+        color: $color-primary-dark;
+      }
+    }
+  }
+  .navbar-brand {
+    float:left;
+    min-height: 55px;
+    padding: 0 0 0;
+    max-width: 100px;
+  }
+}
