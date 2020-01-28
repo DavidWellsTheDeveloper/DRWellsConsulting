@@ -50,7 +50,7 @@ wide ratio so we can have a 100% width on the splash page images. For now 1:2 --
   <div class="container-fluid">
     <div class="row py-5 align-items-center justify-content-around">
       <div class="col-sm-6 col-lg-4">
-        <img src="img/responsive.png" class="img-fluid" alt="">
+        <img src="img/2-phones.png" class="img-fluid" alt="">
       </div>
       <div class="col-sm-12 col-lg-7 m-3 text-center">
         <div class="semi-trans p-5">
