@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md bg-dark fixed-top">
+<nav class="navbar navbar-expand-md fixed-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>
   </button>
